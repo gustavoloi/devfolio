@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Gustavo Luiz Lói | Software Developer`,
     // Description that goes under your name in main bio
-    description: `Software Developer fresh from college and looking for work.`,
+    description: `Software Developer.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
 
@@ -48,10 +48,12 @@ module.exports = {
       {
         name: 'Software Engineering Technician - Bachelor - Graduated',
         description: 'Conestoga College, 2019 - 2021',
+        extraKeywords: 'C/C++, C#, Linux, Javascript, CSS, SDLC',
       },
       {
         name: 'Game Design and Digital Entertainment - Bachelor - Graduated',
         description: 'UNIVALI, 2012 - 2015',
+        extraKeywords:'Game Design, Game Development, Unity 3D, Sound Design',
       },
     ],
 
@@ -59,11 +61,13 @@ module.exports = {
       {
         name: 'SETI - Internet Security',
         description: 'Full-Stack Developer, November 2018 - February 2019',
+        // keywords: 'Test 1',
         //Add a skills section for the experience section. Show some keywords here
       },
       {
         name: 'MUNDIALMIX Comércio de Alimentos',
         description: 'Full-Stack Developer, December 2017 - February 2020',
+        // keywords: 'Test 2',
       },
 
     ],

@@ -10,9 +10,10 @@ const SectionEducation = ({ education }) => {
     <Section title="Education">
       {education.map((item) => (
         <SummaryItem
-          key={item.name}
-          name={item.name}
+          key=        {item.name}
+          name=       {item.name}
           description={item.description}
+          extraKeywords=   {item.extraKeywords}
         />
       ))}
     </Section>
