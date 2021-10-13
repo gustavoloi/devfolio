@@ -7,16 +7,20 @@ module.exports = {
     // Main Site Title
     title: `Gustavo Luiz Lói | Software Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Developer fresh from college and looking for work.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
+
     // Optional: Github account URL
     github: `https://github.com/gustavoloi/`,
+
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/gustavo-loi/`,
+
     // Content of the About Me section
     about: `As a graduate in Software Engineering from Conestoga, I want to show the results of my efforts with my work and I believe I can learn and adapt to any technologies or techniques. From my studies I also got used to learning new technologies in a short period of time, with enough knowledge to be able to attain good grades on my assignments.
     With my previous work experiences, I was able to work with teams, and anything team related would be easy to get used to when working as a Software Engineer. My course also taught me the best practices in this line of work, as well as different work methodologies. My goal is to bring everything I know and all my experience to my future workplace and grow.`,
+    
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     // projects: [
     //   {
@@ -38,39 +42,51 @@ module.exports = {
     //     link: 'https://github.com/RyanFitzgerald/devfolio',
     //   },
     // ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+
+    // Optional: List your education history, must have `name` and `description`.
+    education: [
+      {
+        name: 'Software Engineering Technician - Bachelor - Graduated',
+        description: 'Conestoga College, 2019 - 2021',
+      },
+      {
+        name: 'Game Design and Digital Entertainment - Bachelor - Graduated',
+        description: 'UNIVALI, 2012 - 2015',
+      },
+    ],
+
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'SETI - Internet Security',
+        description: 'Full-Stack Developer, November 2018 - February 2019',
+        //Add a skills section for the experience section. Show some keywords here
       },
       {
-        name: 'Globex Corp',
+        name: 'MUNDIALMIX Comércio de Alimentos',
         description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'C#, C/C++, JavaScript, HTML, CSS',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Database',
+        description: 'MySQL',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'SDLC, Git, Jira, Agile',
+      },
+      {
+        name: 'Languages',
+        description:
+          'Portuguese(Native), English(Fluent)',
       },
     ],
   },
@@ -83,13 +99,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog`,
+    //     name: `blog`,
+      // },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
