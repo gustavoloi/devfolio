@@ -1,42 +1,43 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://gustavoloi-portfolio.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Gustavo Luiz Lói',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Gustavo Luiz Lói | Software Developer`,
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/gustavoloi/`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/gustavo-loi/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `As a graduate in Software Engineering from Conestoga, I want to show the results of my efforts with my work and I believe I can learn and adapt to any technologies or techniques. From my studies I also got used to learning new technologies in a short period of time, with enough knowledge to be able to attain good grades on my assignments.
+    With my previous work experiences, I was able to work with teams, and anything team related would be easy to get used to when working as a Software Engineer. My course also taught me the best practices in this line of work, as well as different work methodologies. My goal is to bring everything I know and all my experience to my future workplace and grow.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    // projects: [
+    //   {
+    //     name: 'Devfolio',
+    //     description:
+    //       'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    //   {
+    //     name: 'ChromeExtensionKit',
+    //     description:
+    //       'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+    //     link: 'https://chromeextensionkit.com/?ref=devfolio',
+    //   },
+    //   {
+    //     name: 'Another Cool Project',
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    // ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
