@@ -67,6 +67,7 @@ export const pageQuery = graphql`
         experience {
           name
           description
+          extraKeywords
         }
         skills {
           name

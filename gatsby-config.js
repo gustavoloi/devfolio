@@ -8,8 +8,9 @@ module.exports = {
     title: `Gustavo Luiz Lói | Software Developer`,
     // Description that goes under your name in main bio
     description: `Software Developer.`,
+
     // Optional: Twitter account handle
-    // author: `@rfitzio`,
+    // author: `@`,
 
     // Optional: Github account URL
     github: `https://github.com/gustavoloi/`,
@@ -61,13 +62,13 @@ module.exports = {
       {
         name: 'SETI - Internet Security',
         description: 'Full-Stack Developer, November 2018 - February 2019',
-        // keywords: 'Test 1',
+        extraKeywords: 'Test 1',
         //Add a skills section for the experience section. Show some keywords here
       },
       {
         name: 'MUNDIALMIX Comércio de Alimentos',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        // keywords: 'Test 2',
+        description: 'Cashier, December 2016 - February 2018',
+        extraKeywords: 'Test 2',
       },
 
     ],
