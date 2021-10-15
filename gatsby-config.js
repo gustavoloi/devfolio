@@ -47,12 +47,12 @@ module.exports = {
     // Optional: List your education history, must have `name` and `description`.
     education: [
       {
-        name: 'Software Engineering Technician - Bachelor - Graduated',
+        name: 'Software Engineering Technician - Graduated',
         description: 'Conestoga College, 2019 - 2021',
         extraKeywords: 'C/C++, C#, Linux, Javascript, CSS, SDLC',
       },
       {
-        name: 'Game Design and Digital Entertainment - Bachelor - Graduated',
+        name: 'Game Design and Digital Entertainment - Graduated',
         description: 'UNIVALI, 2012 - 2015',
         extraKeywords:'Game Design, Game Development, Unity 3D, Sound Design',
       },
@@ -62,13 +62,12 @@ module.exports = {
       {
         name: 'SETI - Internet Security',
         description: 'Full-Stack Developer, November 2018 - February 2019',
-        extraKeywords: 'Test 1',
-        //Add a skills section for the experience section. Show some keywords here
+        extraKeywords: 'Teamwork, C/C++, Javascript, HTML, Git, Jira',
       },
       {
         name: 'MUNDIALMIX Comércio de Alimentos',
         description: 'Cashier, December 2016 - February 2018',
-        extraKeywords: 'Test 2',
+        extraKeywords: 'Teamwork, Time Management, Customer Support',
       },
 
     ],

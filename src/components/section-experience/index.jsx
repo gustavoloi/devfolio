@@ -10,10 +10,10 @@ const SectionExperience = ({ experience }) => {
     <Section title="Experience">
       {experience.map((item) => (
         <SummaryItem
-          key={item.name}
-          name={item.name}
-          description={item.description}
-          extraKeywords={item.extraKeywords}
+          key=            {item.name}
+          name=           {item.name}
+          description=    {item.description}
+          extraKeywords=  {item.extraKeywords}
         />
       ))}
     </Section>

@@ -5,6 +5,7 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
+  extraKeywords: 'hover:text-black',
 };
 
 const SummaryItem = ({ name, description, extraKeywords ,link = false, internal = false }) => {
