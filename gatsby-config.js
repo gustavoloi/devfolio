@@ -23,26 +23,26 @@ module.exports = {
     With my previous work experiences, I was able to work with teams, and anything team related would be easy to get used to when working as a Software Engineer. My course also taught me the best practices in this line of work, as well as different work methodologies. My goal is to bring everything I know and all my experience to my future workplace and grow.`,
     
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    // projects: [
-    //   {
-    //     name: 'Devfolio',
-    //     description:
-    //       'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    //   {
-    //     name: 'ChromeExtensionKit',
-    //     description:
-    //       'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-    //     link: 'https://chromeextensionkit.com/?ref=devfolio',
-    //   },
-    //   {
-    //     name: 'Another Cool Project',
-    //     description:
-    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    // ],
+    projects: [
+      {
+        name: 'The Zoo Project - PHP/CGI',
+        description:
+          'A project built to show the capabilities of CGI and PHP as serverside technologies.',
+        link: 'https://github.com/gustavoloi/gustavo-l-jerry-g-wdd-a03-cgi-php',
+      },
+      {
+        name: 'Data Structures - The Difference',
+        description:
+          'A code designed to compare te difference between the two types of data structure',
+        link: 'https://github.com/gustavoloi/dataStructures-A2',
+      },
+      {
+        name: 'Chat Application',
+        description:
+          'A chat application using a service in the background as a server. Also makes a good use of logs to keep track of work.',
+        link: 'localhost',
+      },
+    ],
 
     // Optional: List your education history, must have `name` and `description`.
     education: [
