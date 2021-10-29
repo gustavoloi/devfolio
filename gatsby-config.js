@@ -19,8 +19,8 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/gustavo-loi/`,
 
     // Content of the About Me section
-    about: `As a graduate in Software Engineering from Conestoga, I want to show the results of my efforts with my work and I believe I can learn and adapt to any technologies or techniques. From my studies I also got used to learning new technologies in a short period of time, with enough knowledge to be able to attain good grades on my assignments.
-    With my previous work experiences, I was able to work with teams, and anything team related would be easy to get used to when working as a Software Engineer. My course also taught me the best practices in this line of work, as well as different work methodologies. My goal is to bring everything I know and all my experience to my future workplace and grow.`,
+    about: `I’m a recently graduated Software Engineer looking for a position in the technology field. While creating well designed, robust code is a must nowadays, I also like to read and understand unknown code. There are several ways to reach the same solution and figuring out how each part of it fits together in the bigger picture will neve cease to amaze me! I’m also bringing teamwork and my experience with customer service to the workplace, because I believe good communication is key in any company, on any field.
+    What stories a code will tell? What new thing will I learn from reading these lines? I want to answer those and more while making good use of my knowledge and experience!.`,
     
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
@@ -37,10 +37,10 @@ module.exports = {
         link: 'https://github.com/gustavoloi/dataStructures-A2',
       },
       {
-        name: 'Chat Application',
+        name: 'WPF Chat Application',
         description:
           'A chat application using a service in the background as a server. Also makes a good use of logs to keep track of work.',
-        link: 'localhost',
+        link: 'https://github.com/gustavoloi/wmp-a06',
       },
     ],
 
