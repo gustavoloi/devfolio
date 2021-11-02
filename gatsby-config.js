@@ -19,8 +19,13 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/gustavo-loi/`,
 
     // Content of the About Me section
-    about: `I’m a recently graduated Software Engineer looking for a position in the technology field. While creating well designed, robust code is a must nowadays, I also like to read and understand unknown code. There are several ways to reach the same solution and figuring out how each part of it fits together in the bigger picture will neve cease to amaze me! I’m also bringing teamwork and my experience with customer service to the workplace, because I believe good communication is key in any company, on any field.
-    What stories a code will tell? What new thing will I learn from reading these lines? I want to answer those and more while making good use of my knowledge and experience!.`,
+    about: `I’m a recently graduated Software Engineer looking for a position in the technology field. 
+    While creating well designed, robust code is a must nowadays, I also like to read and understand unknown code. 
+    There are several ways to reach the same solution and figuring out how each part of it fits together in the bigger picture will never cease to amaze me! 
+    I’m also bringing teamwork and my experience with customer service to the workplace, 
+    because I believe good communication is key in any company, on any field.
+    What stories a code will tell? What new thing will I learn from reading these lines? 
+    I want to answer those and more while making good use of my knowledge and experience!.`,
     
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
