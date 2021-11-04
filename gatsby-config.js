@@ -25,7 +25,7 @@ module.exports = {
     I’m also bringing teamwork and my experience with customer service to the workplace, 
     because I believe good communication is key in any company, on any field.
     What stories a code will tell? What new thing will I learn from reading these lines? 
-    I want to answer those and more while making good use of my knowledge and experience!.`,
+    I want to answer those and more while making good use of my knowledge and experience!`,
     
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
